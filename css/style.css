@@ -1,0 +1,114 @@
+::selection{
+    background-color: #420000;
+    color: #ddd;
+}
+
+body {
+    background-color: #ff0000;
+    font-family: Verdana;
+    background-color: #45484d;
+    text-align: center;
+}
+
+#main{
+    background-color: #fff;
+    border-radius: 10px;
+    width:860px;
+    margin:0px auto;
+}
+
+footer{
+    width: 100%;
+    bottom: 5px;
+    position: fixed;
+    text-align: center;
+    color: #35383d;
+}
+
+h1{
+    border-Top:  2px solid #45484d;
+    margin-top: 30px;
+}
+
+logo{
+    padding-top: 5px;
+    
+    margin-bottom: 50px;
+}
+
+
+
+div#navcenter{
+    text-align:center;
+}
+
+nav *{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul#navmenu, ul.submenu1, ul.submenu2{
+    list-style-type: none;
+   /* outline: 1px solid #f00;*/
+}
+
+ul#navmenu li{
+    width: 125px;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-right: 4px;
+}
+
+ul#navmenu a{
+    text-decoration: none;
+    display: block;
+    width: 125px;
+    height: 25px;
+    line-height: 25px;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+}
+
+ul#navmenu .submenu1 li{
+   /* border: 1px solid green;*/
+}
+
+ul#navmenu .submenu1 a{
+    margin-top: 3px;
+}
+
+ul#navmenu .submenu2 a{
+    margin-left: 8px;
+}
+
+ul#navmenu li:hover > a {
+    background-color: #ccc;
+    color: #000;  
+}
+
+ul#navmenu li:hover > a:hover{
+    background-color: #faa;
+    color: #000; 
+}
+
+ul#navmenu .submenu1 {
+    display: none;
+    position: absolute;
+}
+
+ul#navmenu .submenu2 {
+    display: none;
+    position: absolute;
+    left: 121px;
+    top: 0px;
+}
+
+ul#navmenu li:hover .submenu1{
+    display:block;
+}
+
+ul#navmenu .submenu1 li:hover .submenu2 {
+    display: block;
+}
