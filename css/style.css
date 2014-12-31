@@ -107,6 +107,7 @@ ul#navmenu li:hover > a:hover{
 ul#navmenu .submenu1 {
     display: none;
     position: absolute;
+    opacity: 0;
 }
 
 ul#navmenu .submenu2 {
@@ -114,14 +115,18 @@ ul#navmenu .submenu2 {
     position: absolute;
     left: 145px;
     top: 0px;
+    opacity: 0;
+    
 }
 
 ul#navmenu li:hover .submenu1{
     display:block;
+    opacity: 1;
 }
 
 ul#navmenu .submenu1 li:hover .submenu2 {
     display: block;
+    opacity: 1;
 }
 
 .darrow{
