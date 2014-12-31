@@ -3,6 +3,14 @@
     color: #ddd;
 }
 
+img#logo{
+    padding-top: 5px;
+    height: 200px;
+    width: 851px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 body {
     background-color: #ff0000;
     font-family: Verdana;
@@ -15,12 +23,13 @@ body {
     border-radius: 10px;
     width:860px;
     margin:0px auto;
+    z-index: 20;
 }
 
 footer{
     width: 100%;
     bottom: 5px;
-    position: fixed;
+    /*position: fixed;*/
     text-align: center;
     color: #35383d;
 }
@@ -53,17 +62,19 @@ ul#navmenu, ul.submenu1, ul.submenu2{
 }
 
 ul#navmenu li{
-    width: 125px;
+    font-size: 11pt;
+    width: 150px;
     text-align: center;
     position: relative;
     float: left;
     margin-right: 4px;
+    margin-left: 4px;
 }
 
 ul#navmenu a{
     text-decoration: none;
     display: block;
-    width: 125px;
+    width: 150px;
     height: 25px;
     line-height: 25px;
     background-color: #444;
@@ -101,7 +112,7 @@ ul#navmenu .submenu1 {
 ul#navmenu .submenu2 {
     display: none;
     position: absolute;
-    left: 121px;
+    left: 145px;
     top: 0px;
 }
 
@@ -112,3 +123,33 @@ ul#navmenu li:hover .submenu1{
 ul#navmenu .submenu1 li:hover .submenu2 {
     display: block;
 }
+
+.darrow{
+    color: #fff;
+    font-size: 11pt;
+    position: absolute;
+    top: 1px;
+    right: 4px;
+}
+
+.rarrow{
+    color: #fff;
+    font-size: 11pt;
+    position: absolute;
+    top: 3px;
+    right: 4px;
+}
+
+.fixed{
+    position: fixed;
+    top: 0px;
+    width: 860px;
+    background-color: #ccc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    	-webkit-box-shadow: 0 10px 6px -6px #777;
+	   -moz-box-shadow: 0 10px 6px -6px #777;
+	        box-shadow: 0 10px 6px -6px #777;
+}
+
